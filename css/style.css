@@ -14,11 +14,7 @@ h1
 {
     font-family: 'Margherita', 'Impact', 'Arial';
     text-align: center;
-}
-
-h1 
-{ color: steelblue;
-
+    color: steelblue;
 }
 
 #photo 
@@ -27,6 +23,8 @@ h1
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
     border-radius: 10px 10px 10px 10px;
+    margin-right: 30px;
+
 }
 
 body 
@@ -46,5 +44,13 @@ h2
 {
     text-align: center;
     font-weight:bold;
+    text-shadow:2px 4px 6px seagreen;
+}
 
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin:auto
 }
