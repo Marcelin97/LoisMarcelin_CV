@@ -5,11 +5,12 @@
     <meta charset="utf-8" />
     <title>Loïs Marcelin</title>
     <meta name="description" content="Le cv de Lois Marcelin" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--Pour que le viewport soit le même que la largeur de l'écran-->
     <link href="./css/style.css" rel="stylesheet"> <!--lien avec ma page css-->
 
   </head>
   <body>
+    <div class="bloc_page">
     <header>
         <p>
         <a href="/Photos/ma_photo_2.PNG" target="_blank">
@@ -23,7 +24,8 @@
         <p class="dw">Développeur web</p>
     </header>
     <main>
-      <section class="Expérience">
+      <div class="conteneur">
+      <section class="Expériences">
         <h2>Mes expériences</h2>
         <p>
         <ul>
@@ -100,7 +102,7 @@
         </ul>
         </p>
       </section>
-      <section class="Formation">
+      <section class="Formations">
         <h2>Ma formation</h2>
         <ul>
             <li><strong>2021 : </strong>Développeur web</li>
@@ -116,7 +118,9 @@
             <li><strong>Allemand</strong> niveau Bac (lu, parlé écrit).</li>
         </ul>
       </section>
+    </div>
     </main>
     <footer></footer>
+  </div>
   </body>
 </html>

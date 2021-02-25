@@ -10,6 +10,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body 
+{
+    background-image: url(/paper-1074131_640.jpg);
+
+}
+
 h1
 {
     font-family: 'Margherita', 'Impact', 'Arial';
@@ -17,6 +24,12 @@ h1
     color: steelblue;
 }
 
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+    color:midnightblue
+}
 #photo 
 {
     float:right;
@@ -27,19 +40,6 @@ h1
 
 }
 
-body 
-{
-    background-image: url(/paper-1074131_640.jpg);
-
-}
-
-h2
-{
-    text-align: center;
-    text-decoration: underline;
-    color:midnightblue
-}
-
 .dw
 {
     text-align: center;
@@ -47,10 +47,36 @@ h2
     text-shadow:2px 4px 6px seagreen;
 }
 
-section
+.conteneur
 {
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin:auto
+    width: 85%;
 }
+.Expériences, .Compétences, .Langues, .Formations
+    {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        margin-right: 2%;
+    }
+
+
+@media all and (max-width: 1024px)/*Pour tous les types d'écrans, si la largeur de la fenêtre ne dépasse pas 1 024 px, alors exécuter les règles CSS suivantes */
+{
+    .conteneur
+    {
+        width: auto;
+    }
+
+    #bloc_page
+    {
+        width: auto;
+    }
+    .Compétences, .Expériences, .Formations, .Langues
+    {
+        display:inline  
+    }
+}
+
+
