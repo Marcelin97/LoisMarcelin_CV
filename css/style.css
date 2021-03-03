@@ -1,18 +1,29 @@
+/*Réinitialisation par défaut des valeurs de marge et de remplissage de tous les éléments HTML*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* réinitialise le modèle de boîte à border-box pour tous les éléments HTML*/
+* {
+    box-sizing: border-box;
+}
+
 @font-face 
 {
-    font-family: 'Magherita';
-    src: url('margherita-bold.otf') format('otf'),
-         url('margherita-light.otf') format('otf'),
-         url('margherita-regular.otf') format('otf'),
-         url('margherita-semibold.otf') format('otf'),
-         url('margheritavariablegx.ttf') format('ttf');
+    font-family: "Magherita";
+    src: url("margherita-bold.otf") format("otf"),
+         url("margherita-light.otf") format("otf"),
+         url("margherita-regular.otf") format("otf"),
+         url("margherita-semibold.otf") format("otf"),
+         url("margheritavariablegx.ttf") format("ttf");
 
-    font-weight: normal;
-    font-style: normal;
+    font-weight:400;
 }
 
 body 
 {
+    font-family: "Margherita" Arial, Helvetica, sans-serif;
     background-image: url(/paper-1074131_640.jpg);
 
 }
